@@ -11,7 +11,6 @@ extension MemeResult {
         let memes: [Meme]
     }
 }
-
 struct Meme: Codable, Identifiable {
     let id: String
     let name: String
