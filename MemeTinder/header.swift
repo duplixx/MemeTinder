@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
+
+class HeaderView: ObservableObject {
+  var body: some View {
+    HStack {
+        Text("MemeTinder").bold()
+    }
+  }
+}

@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5300FE742B939578006D7CF7 /* toastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300FE732B939578006D7CF7 /* toastView.swift */; };
+		5300FE762B93A5CE006D7CF7 /* spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300FE752B93A5CE006D7CF7 /* spinner.swift */; };
+		5300FE782B93A66F006D7CF7 /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300FE772B93A66F006D7CF7 /* header.swift */; };
 		53C28FF72B93765400D27621 /* MemeTinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C28FF62B93765400D27621 /* MemeTinderApp.swift */; };
 		53C28FF92B93765400D27621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C28FF82B93765400D27621 /* ContentView.swift */; };
 		53C28FFB2B93765500D27621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C28FFA2B93765500D27621 /* Assets.xcassets */; };
 		53C28FFE2B93765600D27621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C28FFD2B93765600D27621 /* Preview Assets.xcassets */; };
+		53C290052B93785D00D27621 /* modelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C290042B93785D00D27621 /* modelView.swift */; };
+		53C290072B937ACF00D27621 /* MemeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C290062B937ACE00D27621 /* MemeResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5300FE732B939578006D7CF7 /* toastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toastView.swift; sourceTree = "<group>"; };
+		5300FE752B93A5CE006D7CF7 /* spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spinner.swift; sourceTree = "<group>"; };
+		5300FE772B93A66F006D7CF7 /* header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = header.swift; sourceTree = "<group>"; };
 		53C28FF32B93765400D27621 /* MemeTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C28FF62B93765400D27621 /* MemeTinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTinderApp.swift; sourceTree = "<group>"; };
 		53C28FF82B93765400D27621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53C28FFA2B93765500D27621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53C28FFD2B93765600D27621 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53C290042B93785D00D27621 /* modelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelView.swift; sourceTree = "<group>"; };
+		53C290062B937ACE00D27621 /* MemeResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeResult.swift; path = ../../../../Downloads/Resources/Models/MemeResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 		53C28FEA2B93765400D27621 = {
 			isa = PBXGroup;
 			children = (
+				5300FE752B93A5CE006D7CF7 /* spinner.swift */,
+				5300FE732B939578006D7CF7 /* toastView.swift */,
 				53C28FF52B93765400D27621 /* MemeTinder */,
 				53C28FF42B93765400D27621 /* Products */,
 			);
@@ -54,7 +66,10 @@
 				53C28FF62B93765400D27621 /* MemeTinderApp.swift */,
 				53C28FF82B93765400D27621 /* ContentView.swift */,
 				53C28FFA2B93765500D27621 /* Assets.xcassets */,
+				53C290062B937ACE00D27621 /* MemeResult.swift */,
+				53C290042B93785D00D27621 /* modelView.swift */,
 				53C28FFC2B93765600D27621 /* Preview Content */,
+				5300FE772B93A66F006D7CF7 /* header.swift */,
 			);
 			path = MemeTinder;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C28FF92B93765400D27621 /* ContentView.swift in Sources */,
+				53C290052B93785D00D27621 /* modelView.swift in Sources */,
+				5300FE742B939578006D7CF7 /* toastView.swift in Sources */,
+				5300FE762B93A5CE006D7CF7 /* spinner.swift in Sources */,
+				5300FE782B93A66F006D7CF7 /* header.swift in Sources */,
+				53C290072B937ACF00D27621 /* MemeResult.swift in Sources */,
 				53C28FF72B93765400D27621 /* MemeTinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MemeTinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 79QVMTMTHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MemeTinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 79QVMTMTHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
